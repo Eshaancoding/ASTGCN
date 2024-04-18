@@ -1,10 +1,7 @@
 # -*- coding:utf-8 -*-
 
 import numpy as np
-import mxnet as mx
-
 from .utils import get_sample_indices
-
 
 def normalization(train, val, test):
     '''

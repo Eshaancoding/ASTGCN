@@ -2,7 +2,6 @@
 
 import numpy as np
 
-
 def masked_mape_np(y_true, y_pred, null_val=np.nan):
     with np.errstate(divide='ignore', invalid='ignore'):
         if np.isnan(null_val):
